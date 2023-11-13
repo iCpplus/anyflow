@@ -1,0 +1,34 @@
+.flow-node {
+    width: 100%;
+    height: 100%;
+    min-width: 80px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.node-handle{
+    opacity:0;
+    width: 8px;
+    height: 8px;
+    background: #000;
+}
+.flow-node:hover .node-handle{
+    opacity:1;
+}
+
+svg {
+    display: block;
+    margin: 0;
+    overflow: visible;
+}
+/* 
+.line{
+    border-width:2px !important;
+} */
+.react-flow__resize-control.handle{
+    /* border:1px solid #fff; */
+    width: 8px !important;
+    height: 8px !important;
+}
